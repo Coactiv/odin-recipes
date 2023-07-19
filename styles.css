@@ -2,7 +2,37 @@
     line-height: 1.5;
 }
 
-body {
+body,
+.recipes a {
     font-family:'Courier New', Courier, monospace;
     font-size: 14px;
+    background-color: #ccf0cc;
+    color: #333333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.resize-photo {
+    height: auto;
+    width: 400px;
+}
+
+.food-description-heading {
+    text-decoration: underline;
+}
+
+.recipes {
+    list-style: decimal-leading-zero;
 }
