@@ -57,3 +57,7 @@ h2 {
 .recipes {
     list-style: decimal-leading-zero;
 }
+
+.photo-shadow {
+    box-shadow: 0 10px 17px #333333cc
+}
