@@ -1,5 +1,7 @@
 * {
     line-height: 1.5;
+    box-sizing: border-box;
+    /* border: 1px black solid; */
 }
 
 body,
@@ -14,7 +16,11 @@ h1 {
     text-align: center;
 }
 
-.center-text {
+h2 {
+    text-align: center;
+}
+
+.text-center {
     text-align: center;
 }
 
@@ -22,6 +28,21 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 10px 0px;
+}
+
+.text-align-center-left {
+    display: inline-block;
+    text-align: left;
+}
+
+.directions {
+    display: block;
+    margin: 3em auto;
+    padding: 0px 50px;
+}
+
+.ingredients {
+    margin-top: 5em;
 }
 
 .resize-photo {
