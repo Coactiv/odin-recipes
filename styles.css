@@ -12,14 +12,6 @@ body,
     color: #333333;
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
 .text-center {
     text-align: center;
 }
@@ -36,9 +28,11 @@ h2 {
 }
 
 .directions {
-    display: block;
-    margin: 3em auto;
-    padding: 0px 50px;
+    display: flex;
+    margin: 2em 5em 2em;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 .ingredients {
